@@ -1,0 +1,98 @@
+{
+    "name": "InputMAP",
+    "maps": [
+        {
+            "name": "Tamagochi",
+            "id": "2e252a9e-a783-4e9f-a70f-585b2be056bc",
+            "actions": [
+                {
+                    "name": "movement",
+                    "type": "Value",
+                    "id": "327bac48-ab9e-450f-89f8-5953ab7b7b9d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "a31e8e47-bf91-4e49-867a-c124c3615cd5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "76481dfe-69b3-4739-a296-fdb61f97aaf5",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "0d5a0e27-d3aa-4b53-815b-70e0e7540764",
+                    "path": "w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "6749363e-0eb0-4511-b0b6-f4793032e9ef",
+                    "path": "s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "30be55dc-6d2f-45dd-b796-dd7456bd5880",
+                    "path": "a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "c814829b-66dd-4733-b227-9fccb0e501e0",
+                    "path": "d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "ad6e965d-c8f7-4a9c-8683-4674b10665a3",
+                    "path": "<Mouse>/press",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
